@@ -15,7 +15,7 @@ from app.routes.activities import router as activity_router
 from app.routes.settings import router as settings_router
 
 app = FastAPI(
-    title=settings.PROJECT_NAME,
+    title="TEAM MANAGEMENT",
     description="Level 1 Multi-Organization Team Management Platform API",
     version="1.0.0",
 )
